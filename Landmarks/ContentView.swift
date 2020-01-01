@@ -6,11 +6,16 @@
 //  Copyright © 2020 tkz. All rights reserved.
 //
 
+// https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
+
+
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Happy New Year 2020 !!")
+        Text("Turtle Rock")
+            .font(.title)
+            .foregroundColor(.green)
     }
 }
 
