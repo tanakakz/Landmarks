@@ -20,8 +20,8 @@ struct ContentView: View {
 
             CircleImage()
                 .frame(width: 150)
-                .offset(y: -130)
-                .padding(.bottom, -130)
+                .offset(y: -100)
+                .padding(.bottom, -150)
 
             VStack(alignment: .leading) {
                 Text("Noraneko")
